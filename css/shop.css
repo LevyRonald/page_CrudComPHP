@@ -1,0 +1,221 @@
+*{
+	padding:0;
+	margin: 0;
+	outline: 0;
+}
+
+/*/Cor Body/*/
+
+body{
+	background-color: #DEB887;}
+
+/*/Header/*/
+
+header{
+	width: 100%;
+	position: relative;
+	box-shadow: 0px 2px;
+	background-color: white;
+	height: 115px;
+}
+
+/*/Logo/*/
+
+.logo{
+	position: absolute;
+	top: -30px;
+
+}
+
+/*/Nav/*/
+
+.menu{
+	position: absolute;
+	right: 320px;
+	list-style: none;
+ 	margin-top:52px; 
+  	font-family: 'Lobster', cursive;
+}
+
+.menu li a:hover{
+	color: #DEB887;
+}
+
+.menu li a{
+	color: black;
+	text-decoration: none;
+	padding-right:20px;  
+	margin-left: 10px;
+}
+.menu li{
+    display:inline-block;
+}
+
+/*/Barra Search/*/
+.barra-search{
+	text-align: center;
+	position: absolute;
+	right: 150px;
+	list-style: none;
+ 	margin-top:52px; 
+ 	border-radius: 0px 10px 0px 10px;
+
+}
+
+/*/Icon Lupa/*/
+
+#lupa{
+	    font-size: 20px;
+		position: absolute;
+		right: 120px;
+		list-style: none;
+	 	margin-top:52px; 
+}
+
+/*/Icon Person/
+*/
+#person{
+	    color: black;
+	    font-size: 20px;
+	    position: absolute;
+		right: 90px;
+		list-style: none;
+	 	margin-top:52px; 
+}
+
+/*/ondualação/*/
+
+.ondas{
+	   background-image: url(../img/bg-header.png);
+	   position: absolute;
+	   top: 110px;
+	   width: 100%;
+	   height: 15px;
+}
+
+/*/Logo Shop/*/
+.Logo-shop{
+
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 180px;
+	left: 520px;
+}
+
+/*/Produtos 1/*/
+.prod h1{
+	font-family: lobster,cursive;
+	position: absolute;
+	color:black;
+	top: -50%;
+	left: 0%;
+	font-size: 3em;
+}
+
+.prod a{
+	font-size: 0.5em;
+	color: black;
+	text-decoration: none;
+}
+
+
+.prod{
+	position: absolute;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	width:90%;
+	background-color: #DEB887;
+	top: 80%;
+    left: 65px;
+}
+
+/*/Produtos 2/*/
+.utens h1{
+	font-family: lobster,cursive;
+	position: absolute;
+	color:black;
+	top: -50%;
+	left: 0%;
+	font-size: 3em;
+}
+
+
+.utens a{
+	font-size: 0.5em;
+	color: black;
+	text-decoration: none;
+}
+
+.utens{
+	position: absolute;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	width:90%;
+	background-color: #DEB887;
+	top: 160%;
+    left: 65px;
+}
+
+.card{
+	text-align: center;
+	width: 500px;
+	height: 200px;
+	padding:20px;
+	margin: 5px; 
+	background-color: white;
+	color: black;
+}
+
+.card img{
+	height:150px;
+    width:320px;
+    filter:contrast(75%);
+    cursor: pointer;
+}
+
+.card img:hover{
+     filter:contrast(100%);
+  
+}
+
+.card:hover{
+    transition-delay: 0.5s;
+}
+
+.card p{
+	font-family: lobster,cursive;
+}
+
+
+/*/Contato/*/
+#contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
+
+#contato div p a{
+	color: white;
+	text-decoration: none;
+}
+/*/footer/*/
+
+footer{
+	text-align: center;
+	background-color: #4d4d4d;
+	padding: 10px;
+	color: #f1f1f1;
+}
+
+section{
+	color: #fff;
+	background-color: #000;
+}

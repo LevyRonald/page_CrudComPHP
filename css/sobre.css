@@ -1,0 +1,108 @@
+*{
+	padding:0;
+	margin: 0;
+	outline: 0;
+}
+
+body{
+	background-color: #DEB887;}
+
+header{
+	width: 100%;
+	min-width: 100%;
+	position: relative;
+	box-shadow: 0px 2px;
+	background-color: white;
+	height: 115px;
+}
+.logo{
+	position: absolute;
+	top: -30px;
+
+}
+.menu{
+	position: absolute;
+	right: 320px;
+	list-style: none;
+ 	margin-top:52px; 
+  	font-family: 'Lobster', cursive;
+}
+
+.menu li a:hover{
+	color: #DEB887;
+}
+
+.menu li a{
+	color: black;
+	text-decoration: none;
+	padding-right:20px;  
+	margin-left: 10px;
+}
+.menu li{
+    display:inline-block;
+}
+
+.barra-search{
+	text-align: center;
+	position: absolute;
+	right: 150px;
+	list-style: none;
+ 	margin-top:52px; 
+ 	border-radius: 0px 10px 0px 10px;
+
+}
+
+#lupa{
+	    font-size: 20px;
+		position: absolute;
+		right: 120px;
+		list-style: none;
+	 	margin-top:52px; 
+}
+
+#person{
+	    color: black;
+	    font-size: 20px;
+	    position: absolute;
+		right: 90px;
+		list-style: none;
+	 	margin-top:52px; 
+}
+.ondas{
+	   background-image: url(../img/bg-header.png);
+	   position: absolute;
+	   top: 110px;
+	   width: 100%;
+	   height: 15px;
+}
+.i{
+	margin-top: 60px;
+	margin-left: 620px;
+ 	width:100px;
+ 	position:;
+}
+.sobre{
+	font-size: 30px;
+	color: white;
+	top: 175px;
+	margin-left: 600px;
+	font-family: 'Lobster', cursive;
+		position: absolute;
+}
+.f-s{
+	font-family: 'Lobster', cursive;
+    position: absolute;
+    text-align: center;    
+    margin-top: 30px;
+    float:center;
+    width: 86.6% ;
+    height: 260px;
+    margin-left: 100px;
+ 	background-image: linear-gradient(#F4A460,#F5DEB3,#DEB887);
+  	border-color: #D2691E;
+    border-radius: 4px 4px 4px 4px;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+}

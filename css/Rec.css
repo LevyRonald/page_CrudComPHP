@@ -1,0 +1,218 @@
+*{
+	padding:0;
+	margin: 0;
+	outline: 0;
+}
+
+/*/Cor Body/*/
+
+body{
+	background-color: #DEB887;}
+
+/*/Header/*/
+
+header{
+	width: 100%;
+	position: relative;
+	box-shadow: 0px 2px;
+	background-color: white;
+	height: 115px;
+}
+
+/*/Logo/*/
+
+.logo{
+	position: absolute;
+	top: -30px;
+
+}
+
+/*/Nav/*/
+
+.menu{
+	position: absolute;
+	right: 320px;
+	list-style: none;
+ 	margin-top:52px; 
+  	font-family: 'Lobster', cursive;
+}
+
+.menu li a:hover{
+	color: #DEB887;
+}
+
+.menu li a{
+	color: black;
+	text-decoration: none;
+	padding-right:20px;  
+	margin-left: 10px;
+}
+.menu li{
+    display:inline-block;
+}
+
+/*/Barra Search/*/
+.barra-search{
+	text-align: center;
+	position: absolute;
+	right: 150px;
+	list-style: none;
+ 	margin-top:52px; 
+ 	border-radius: 0px 10px 0px 10px;
+
+}
+
+/*/Icon Lupa/
+*/
+#lupa{
+	    font-size: 20px;
+		position: absolute;
+		right: 120px;
+		list-style: none;
+	 	margin-top:52px; 
+}
+
+/*/Icon Person/
+*/
+#person{
+	    color: black;
+	    font-size: 20px;
+	    position: absolute;
+		right: 90px;
+		list-style: none;
+	 	margin-top:52px; 
+}
+#sair{
+	    color: black;
+	    font-size: 20px;
+	    position: absolute;
+		right: 60px;
+		list-style: none;
+	 	margin-top:52px; 
+}
+
+/*/ondualação/*/
+
+.ondas{
+	   background-image: url(../img/bg-header.png);
+	   position: absolute;
+	   top: 110px;
+	   width: 100%;
+	   height: 15px;
+}
+
+
+.receitas-contanier{
+	margin: 40px;
+	padding: 40px;
+	height: 700px;
+	background-color:rgb(255,255,255,0.0);
+}
+
+.receitas{
+	display: flex;
+	flex-direction: column;
+}
+
+.rec1{
+	width: 100%;
+	height: 170px;
+	background-color: white;
+	margin: 5px;	
+}
+.rec1:hover{
+
+}
+
+
+
+/*/Contato/*/
+#contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
+
+#contato div p a{
+	color: white;
+	text-decoration: none;
+}
+
+
+footer{
+	text-align: center;
+	background-color: #4d4d4d;
+	padding: 10px;
+	color: #f1f1f1;
+}
+
+section{
+	color: #fff;
+	background-color: #000;
+}
+
+
+
+
+/*pop-up/*/
+.modal-contanier{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(0,0,0,.5);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 2000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.modal{
+	position: relative;
+	background-color: white;
+	width: 60%;
+	min-width:360px;
+	padding: 40px;
+	border:10px solid black;
+	box-shadow: 0 0 0 10px white;
+
+}
+@keyframes modal{
+	from{
+		opacity: 0;
+		transform: translate3d(0, -60px, 0);
+	}
+	to{
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+.mostrar .modal{
+	animation: modal .3s;
+}
+.fechar{
+	position: absolute;
+	top: -30px;
+	right: -30px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border:4px solid white;
+	background-color: white;
+	color:black;
+	font-family: lobster, Cursive;
+	cursor: pointer;
+	box-shadow: 0 4px 4px 0 rgba(0 ,0 ,0 ,.3)
+}
+.modal-contanier.mostrar{
+	display: flex;
+
+}
+
+div img{
+	height: 300px;
+	width: 300px;
+}
